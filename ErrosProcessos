@@ -1,0 +1,40 @@
+Erros
+
+	Tank
+		Abaixo dos 10%(Diminui a Velocidade do Processo)
+		Acima dos 90%(Abre a 2 comporta)
+		Temperatura acima de 400 e abaixo de 20(fazer // Alguam coisa visual)
+		Pressão acima de 500000pa(a comporta abre mais)
+
+	Esteiras Geral
+		Temperatura do rolo acima dos 250(diminui a velocidade das esteiras)
+		Velocidade acima dos 450 rpm(reduz a velocidade do processo)
+
+	Esteira1
+		Mal posicionamento do Barril(Diminuindo o delay do sensor)
+		Comporta Abre demais(a partir do sensor de nivel 2 na esteira 2, vai se auto regular)
+
+	Esteira2
+		Mal posicionamento(Diminuir delay)
+		Sensor nivel 2 mede errado(volta a condição inicial)
+		Sensor de Cor detecta Errado(volta a condição inicial)
+
+	Esteira3
+		Sensor de Cor detecta Errado(volta com auxilio do DB)
+		Mal posicionamento(Diminuir delay)
+
+	Esteira4
+		Mal posicionamento(Diminuir delay)
+
+	Braço Robotico1
+		Ele não vira o barril(volta para condição inicial)
+		+ Velocidade(condição inicial)
+		Peça no estoque errado(condição inicial)
+
+	Braço Robotico2
+		Não despeijar os residuos por completo(Reduzir o delay)
+
+	Estoque
+		Informar posição errada da peça(Retratar os dados) 				
+					
+
